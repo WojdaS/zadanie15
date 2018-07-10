@@ -64,8 +64,6 @@ div#block {
     width: 60px;
     height: 60px;
     margin: 10px;
-    border: 100px;
-
 }
 
 .bgRed {
@@ -82,4 +80,12 @@ div#block {
 
 .bgBlack {
     background-color: black;
+}
+
+div#inline {
+    background-color: chocolate;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: 3mm separate yellow;
 }
