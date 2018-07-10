@@ -6,6 +6,8 @@
 
 body {
     height: 100vh;
+    text-align: center;
+    margin: auto 20px;
 }
 
 nav a {
@@ -14,22 +16,37 @@ nav a {
     float: left;
     text-align: center;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 50px 30px;
     font-size: 30px;
 }
 
-a.red {
+.red {
     color: red;
 }
 
-a.green {
+.green {
     color: darkgreen;
 }
 
-a.yellow {
+.yellow {
     color: yellowgreen;
 }
 
-a.black {
+.black {
     color: black;
+}
+
+article#aboutUs {
+    background-color: blue;
+    display: flex;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 55px;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify
 }
