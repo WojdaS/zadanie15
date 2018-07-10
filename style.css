@@ -87,5 +87,15 @@ div#inline {
     width: 60px;
     height: 60px;
     margin: 10px;
-    border: 3mm separate yellow;
+    border-width: 3mm;
+    border-style: solid;
+    border-color: blue;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: blue;
+    background: red;
 }
