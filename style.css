@@ -58,7 +58,7 @@ p {
     text-align: justify
 }
 
-div#block {
+div.block {
     display: block;
     float: left;
     width: 60px;
@@ -82,7 +82,7 @@ div#block {
     background-color: black;
 }
 
-div#inline {
+div.inline {
     background-color: chocolate;
     width: 60px;
     height: 60px;
