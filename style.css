@@ -10,7 +10,7 @@ body {
     margin: auto 20px;
 }
 
-nav a {
+a {
     display: block;
     width: 25%;
     float: left;
@@ -20,33 +20,66 @@ nav a {
     font-size: 30px;
 }
 
-.red {
+.navRed {
     color: red;
 }
 
-.green {
+.navGreen {
     color: darkgreen;
 }
 
-.yellow {
+.navYellow {
     color: yellowgreen;
 }
 
-.black {
+.navBlack {
     color: black;
 }
 
-article#aboutUs {
-    background-color: blue;
-    display: flex;
+article {
+    width: 100%;
+    display: inline-block;
 }
+
+#aboutUs {
+    background-color: skyblue;
+
+}
+
 
 h1 {
     font-size: 40px;
     padding: 55px;
+    border: 100px;
 }
 
 p {
     font-size: 25px;
     text-align: justify
+}
+
+div#block {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: 100px;
+
+}
+
+.bgRed {
+    background-color: red;
+}
+
+.bgGreen {
+    background-color: darkgreen;
+}
+
+.bgYellow {
+    background-color: yellowgreen;
+}
+
+.bgBlack {
+    background-color: black;
 }
