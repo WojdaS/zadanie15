@@ -10,7 +10,7 @@ body {
     margin: auto 20px;
 }
 
-a {
+li {
     display: block;
     width: 25%;
     float: left;
@@ -20,19 +20,19 @@ a {
     font-size: 30px;
 }
 
-.navRed {
+.nav-red {
     color: red;
 }
 
-.navGreen {
+.nav-green {
     color: darkgreen;
 }
 
-.navYellow {
+.nav-yellow {
     color: yellowgreen;
 }
 
-.navBlack {
+.nav-black {
     color: black;
 }
 
@@ -41,7 +41,7 @@ article {
     display: inline-block;
 }
 
-#aboutUs {
+#about-us {
     background-color: skyblue;
 
 }
@@ -66,19 +66,19 @@ div.block {
     margin: 10px;
 }
 
-.bgRed {
+.bg-red {
     background-color: red;
 }
 
-.bgGreen {
+.bg-green {
     background-color: darkgreen;
 }
 
-.bgYellow {
+.bg-yellow {
     background-color: yellowgreen;
 }
 
-.bgBlack {
+.bg-black {
     background-color: black;
 }
 
